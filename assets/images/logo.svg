@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 64" fill="none" role="img" aria-label="Tanveer Traders Logo">
+  <g transform="translate(4, 8)">
+    <!-- Symbol: Grain stalk and crystal emblem -->
+    <rect width="48" height="48" rx="8" fill="#174A35"/>
+    <!-- Rice grain / ear motif -->
+    <path d="M24 10 C24 10, 20 16, 20 22 C20 25, 22 27, 24 27 C26 27, 28 25, 28 22 C28 16, 24 10, 24 10 Z" fill="#C9A45C"/>
+    <path d="M19 18 C17 19, 13 22, 14 27 C15 29, 17 30, 19 29 C21 28, 22 25, 21 22 C20.5 20.5, 19 18, 19 18 Z" fill="#E4C882"/>
+    <path d="M29 18 C31 19, 35 22, 34 27 C33 29, 31 30, 29 29 C27 28, 26 25, 27 22 C27.5 20.5, 29 18, 29 18 Z" fill="#E4C882"/>
+    <path d="M17 27 C15 29, 12 33, 14 37 C15 39, 18 39, 19 37 C21 35, 20 32, 19 29" fill="#C9A45C"/>
+    <path d="M31 27 C33 29, 36 33, 34 37 C33 39, 30 39, 29 37 C27 35, 28 32, 29 29" fill="#C9A45C"/>
+    <!-- Central stalk -->
+    <line x1="24" y1="26" x2="24" y2="42" stroke="#FAF7EF" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Subtle diamond base (representing sugar crystal) -->
+    <polygon points="24,39 27,42 24,45 21,42" fill="#C9A45C"/>
+  </g>
+  <!-- Wordmark -->
+  <text x="66" y="32" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-weight="700" font-size="20" fill="#174A35" letter-spacing="-0.02em">TANVEER TRADERS</text>
+  <text x="67" y="48" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-weight="500" font-size="10.5" fill="#667067" letter-spacing="0.08em">RICE &amp; SUGAR WHOLESALE · KHUSHAB</text>
+</svg>

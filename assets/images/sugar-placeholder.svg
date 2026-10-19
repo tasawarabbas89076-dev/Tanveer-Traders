@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="#F4EFE6"/>
+  <!-- Bag shape -->
+  <path d="M125 110 C125 90, 160 85, 200 85 C240 85, 275 90, 275 110 L285 230 C285 250, 250 255, 200 255 C150 255, 115 250, 115 230 Z" fill="#E6DFD5" stroke="#C4BCB0" stroke-width="3"/>
+  <ellipse cx="200" cy="110" rx="72" ry="16" fill="#FFFFFF"/>
+  <!-- Sugar crystals sparkle representation -->
+  <g fill="#FFFFFF" stroke="#90A4AE" stroke-width="0.8">
+    <polygon points="180,105 183,108 180,111 177,108"/>
+    <polygon points="200,102 204,106 200,110 196,106"/>
+    <polygon points="220,105 223,108 220,111 217,108"/>
+    <polygon points="190,110 193,113 190,116 187,113"/>
+    <polygon points="210,110 213,113 210,116 207,113"/>
+  </g>
+  <rect x="150" y="150" width="100" height="50" rx="4" fill="#FAF7EF" stroke="#174A35" stroke-width="1.5"/>
+  <text x="200" y="172" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#174A35" text-anchor="middle">SUGAR</text>
+  <text x="200" y="188" font-family="system-ui, sans-serif" font-size="9" fill="#667067" text-anchor="middle">TANVEER TRADERS</text>
+</svg>

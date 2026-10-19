@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Portal Login | Tanveer Traders</title>
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+  </head>
+  <body class="admin-body" style="display: flex; align-items: center; justify-content: center; min-height: 100vh; padding: 1.5rem;">
+    <div style="width: 100%; max-width: 420px; background-color: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-lg); padding: 2.5rem; box-shadow: var(--shadow-md);">
+      <div style="text-align: center; margin-bottom: 2rem;">
+        <img src="/assets/images/logo.svg" alt="Tanveer Traders Logo" style="height: 44px; margin: 0 auto 1rem auto;" />
+        <h1 style="font-size: 1.375rem; font-weight: 700; color: var(--color-primary-dark);">Admin Portal Login</h1>
+        <p style="font-size: 0.8125rem; color: var(--color-text-muted); margin-top: 0.25rem;">
+          Authorized staff access for Tanveer Traders management.
+        </p>
+      </div>
+
+      <div style="background-color: var(--color-surface-subtle); border: 1px solid var(--color-border); border-radius: var(--radius-sm); padding: 1rem; margin-bottom: 1.5rem; font-size: 0.8125rem;">
+        <div style="font-weight: 700; color: var(--color-primary-dark); margin-bottom: 0.35rem; font-size: 0.875rem;">Administrator Credentials:</div>
+        <div style="color: var(--color-text-main); margin-bottom: 0.2rem;">Email: <strong>admin@tanveertraders.com</strong></div>
+        <div style="color: var(--color-text-main); margin-bottom: 0.65rem;">Password: <strong>admin123</strong> (or <strong>ChangeThisSecurePassword123!</strong>)</div>
+        <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+          <button type="button" class="btn btn-secondary btn-sm" style="flex: 1; min-width: 130px;" onclick="document.getElementById('admin-email').value='admin@tanveertraders.com'; document.getElementById('admin-password').value='admin123';">
+            Auto-fill
+          </button>
+          <button type="button" class="btn btn-primary btn-sm" style="flex: 1; min-width: 130px;" onclick="document.getElementById('admin-email').value='admin@tanveertraders.com'; document.getElementById('admin-password').value='admin123'; document.getElementById('login-submit-btn').click();">
+            1-Click Login
+          </button>
+        </div>
+      </div>
+
+      <div id="login-alert" class="alert-notice error" style="display: none; margin-bottom: 1.25rem;"></div>
+
+      <form id="admin-login-form" novalidate>
+        <div class="form-group">
+          <label for="admin-email" class="form-label">Administrator Email</label>
+          <input 
+            type="email" 
+            id="admin-email" 
+            name="email" 
+            class="form-input" 
+            placeholder="admin@tanveertraders.com" 
+            required 
+            autocomplete="email" 
+          />
+        </div>
+
+        <div class="form-group">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.35rem;">
+            <label for="admin-password" class="form-label" style="margin-bottom: 0;">Password</label>
+            <button type="button" onclick="const p = document.getElementById('admin-password'); p.type = p.type === 'password' ? 'text' : 'password'; this.textContent = p.type === 'password' ? 'Show' : 'Hide';" style="background: none; border: none; font-size: 0.75rem; color: var(--color-primary); cursor: pointer; text-decoration: underline;">Show</button>
+          </div>
+          <input 
+            type="password" 
+            id="admin-password" 
+            name="password" 
+            class="form-input" 
+            placeholder="admin123" 
+            required 
+            autocomplete="current-password" 
+          />
+        </div>
+
+        <button type="submit" id="login-submit-btn" class="btn btn-primary" style="width: 100%; padding: 0.75rem 1rem; margin-top: 0.5rem;">
+          Log In to Dashboard
+        </button>
+      </form>
+
+      <div style="margin-top: 1.5rem; padding-top: 1.25rem; border-top: 1px solid var(--color-border); text-align: center;">
+        <a href="/" style="font-size: 0.8125rem; color: var(--color-primary); font-weight: 500;">
+          &larr; Return to Public Website
+        </a>
+      </div>
+    </div>
+
+    <script src="/assets/js/admin.js"></script>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Allow: /products.html
+Disallow: /admin/
+Disallow: /api/
+
+Sitemap: https://tanveertraders.pk/sitemap.xml

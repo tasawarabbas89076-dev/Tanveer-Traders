@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="#F4EFE6"/>
+  <!-- Hessian sack silhouette -->
+  <path d="M120 110 C120 90, 160 85, 200 85 C240 85, 280 90, 280 110 L290 230 C290 250, 250 255, 200 255 C150 255, 110 250, 110 230 Z" fill="#D9C7AC" stroke="#B8A081" stroke-width="3"/>
+  <ellipse cx="200" cy="110" rx="75" ry="16" fill="#F8F4EC"/>
+  <!-- Rice grains -->
+  <g fill="#FFFFFF" stroke="#D1C3AD" stroke-width="1">
+    <ellipse cx="180" cy="108" rx="8" ry="3" transform="rotate(-15 180 108)"/>
+    <ellipse cx="195" cy="106" rx="9" ry="3" transform="rotate(20 195 106)"/>
+    <ellipse cx="210" cy="109" rx="8" ry="3" transform="rotate(-5 210 109)"/>
+    <ellipse cx="170" cy="113" rx="7" ry="2.5" transform="rotate(35 170 113)"/>
+    <ellipse cx="225" cy="112" rx="8" ry="3" transform="rotate(-25 225 112)"/>
+  </g>
+  <rect x="150" y="150" width="100" height="50" rx="4" fill="#FAF7EF" stroke="#C9A45C" stroke-width="1.5"/>
+  <text x="200" y="172" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#174A35" text-anchor="middle">RICE</text>
+  <text x="200" y="188" font-family="system-ui, sans-serif" font-size="9" fill="#667067" text-anchor="middle">TANVEER TRADERS</text>
+</svg>

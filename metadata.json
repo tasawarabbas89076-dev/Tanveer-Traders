@@ -1,0 +1,6 @@
+{
+  "name": "Tanveer Traders - Rice & Sugar Wholesale",
+  "description": "Explore quality Rice and Sugar wholesale and retail selection from Tanveer Traders in Khushab, Punjab, Pakistan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
